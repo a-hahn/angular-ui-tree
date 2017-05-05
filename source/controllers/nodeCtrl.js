@@ -42,7 +42,7 @@
 
         //Return the index of child node in parent node (nodesScope).
         $scope.index = function () {
-          return $scope.$parentNodesScope.$modelValue.indexOf($scope.$modelValue);
+          return $scope.$parentNodesScope.$modelValue.nodes.indexOf($scope.$modelValue);
         };
 
         $scope.dragEnabled = function () {
